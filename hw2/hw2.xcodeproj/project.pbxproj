@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1185FD47262ED3B300E497DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1185FD46262ED3B300E497DD /* main.swift */; };
+		1165F7E92635F52900076A03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165F7E82635F52900076A03 /* main.swift */; };
+		1165F7F12635F56D00076A03 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165F7F02635F56D00076A03 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1185FD41262ED3B300E497DD /* CopyFiles */ = {
+		1165F7E32635F52900076A03 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1165F7902635F40900076A03 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
-		1185FD43262ED3B300E497DD /* gitDemoBranch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitDemoBranch; sourceTree = BUILT_PRODUCTS_DIR; };
-		1185FD46262ED3B300E497DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1165F7E52635F52900076A03 /* hw2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw2; sourceTree = BUILT_PRODUCTS_DIR; };
+		1165F7E82635F52900076A03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1165F7F02635F56D00076A03 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1185FD40262ED3B300E497DD /* Frameworks */ = {
+		1165F7E22635F52900076A03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,66 +40,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1185FD3A262ED3B300E497DD = {
+		1165F7DC2635F52900076A03 = {
 			isa = PBXGroup;
 			children = (
-				1165F7902635F40900076A03 /* .gitignore */,
-				1185FD45262ED3B300E497DD /* gitDemoBranch */,
-				1185FD44262ED3B300E497DD /* Products */,
+				1165F7E72635F52900076A03 /* hw2 */,
+				1165F7E62635F52900076A03 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1185FD44262ED3B300E497DD /* Products */ = {
+		1165F7E62635F52900076A03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1185FD43262ED3B300E497DD /* gitDemoBranch */,
+				1165F7E52635F52900076A03 /* hw2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1185FD45262ED3B300E497DD /* gitDemoBranch */ = {
+		1165F7E72635F52900076A03 /* hw2 */ = {
 			isa = PBXGroup;
 			children = (
-				1185FD46262ED3B300E497DD /* main.swift */,
+				1165F7E82635F52900076A03 /* main.swift */,
+				1165F7F02635F56D00076A03 /* Menu.swift */,
 			);
-			path = gitDemoBranch;
+			path = hw2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1185FD42262ED3B300E497DD /* gitDemoBranch */ = {
+		1165F7E42635F52900076A03 /* hw2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1185FD4A262ED3B300E497DD /* Build configuration list for PBXNativeTarget "gitDemoBranch" */;
+			buildConfigurationList = 1165F7EC2635F52900076A03 /* Build configuration list for PBXNativeTarget "hw2" */;
 			buildPhases = (
-				1185FD3F262ED3B300E497DD /* Sources */,
-				1185FD40262ED3B300E497DD /* Frameworks */,
-				1185FD41262ED3B300E497DD /* CopyFiles */,
+				1165F7E12635F52900076A03 /* Sources */,
+				1165F7E22635F52900076A03 /* Frameworks */,
+				1165F7E32635F52900076A03 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = gitDemoBranch;
-			productName = gitDemoBranch;
-			productReference = 1185FD43262ED3B300E497DD /* gitDemoBranch */;
+			name = hw2;
+			productName = hw2;
+			productReference = 1165F7E52635F52900076A03 /* hw2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1185FD3B262ED3B300E497DD /* Project object */ = {
+		1165F7DD2635F52900076A03 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					1185FD42262ED3B300E497DD = {
+					1165F7E42635F52900076A03 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 1185FD3E262ED3B300E497DD /* Build configuration list for PBXProject "gitDemoBranch" */;
+			buildConfigurationList = 1165F7E02635F52900076A03 /* Build configuration list for PBXProject "hw2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,29 +107,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 1185FD3A262ED3B300E497DD;
-			productRefGroup = 1185FD44262ED3B300E497DD /* Products */;
+			mainGroup = 1165F7DC2635F52900076A03;
+			productRefGroup = 1165F7E62635F52900076A03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1185FD42262ED3B300E497DD /* gitDemoBranch */,
+				1165F7E42635F52900076A03 /* hw2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1185FD3F262ED3B300E497DD /* Sources */ = {
+		1165F7E12635F52900076A03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1185FD47262ED3B300E497DD /* main.swift in Sources */,
+				1165F7F12635F56D00076A03 /* Menu.swift in Sources */,
+				1165F7E92635F52900076A03 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1185FD48262ED3B300E497DD /* Debug */ = {
+		1165F7EA2635F52900076A03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		1185FD49262ED3B300E497DD /* Release */ = {
+		1165F7EB2635F52900076A03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +245,7 @@
 			};
 			name = Release;
 		};
-		1185FD4B262ED3B300E497DD /* Debug */ = {
+		1165F7ED2635F52900076A03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		1185FD4C262ED3B300E497DD /* Release */ = {
+		1165F7EE2635F52900076A03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -268,25 +270,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1185FD3E262ED3B300E497DD /* Build configuration list for PBXProject "gitDemoBranch" */ = {
+		1165F7E02635F52900076A03 /* Build configuration list for PBXProject "hw2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1185FD48262ED3B300E497DD /* Debug */,
-				1185FD49262ED3B300E497DD /* Release */,
+				1165F7EA2635F52900076A03 /* Debug */,
+				1165F7EB2635F52900076A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1185FD4A262ED3B300E497DD /* Build configuration list for PBXNativeTarget "gitDemoBranch" */ = {
+		1165F7EC2635F52900076A03 /* Build configuration list for PBXNativeTarget "hw2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1185FD4B262ED3B300E497DD /* Debug */,
-				1185FD4C262ED3B300E497DD /* Release */,
+				1165F7ED2635F52900076A03 /* Debug */,
+				1165F7EE2635F52900076A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1185FD3B262ED3B300E497DD /* Project object */;
+	rootObject = 1165F7DD2635F52900076A03 /* Project object */;
 }

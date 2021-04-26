@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:hw2/hw2.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:hw1/gitDemoBranch.xcodeproj">
    </FileRef>
 </Workspace>
